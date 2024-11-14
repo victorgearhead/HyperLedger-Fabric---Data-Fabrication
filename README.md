@@ -14,7 +14,7 @@ This project is a Django web application that enables users to upload a document
 ### 1. Clone the Repository
 
 Clone this repository to your local machine:
-''''git clone git@github.com:victorgearhead/HyperLedger-Fabric---Data-Fabrication.git''''
+'''git clone git@github.com:victorgearhead/HyperLedger-Fabric---Data-Fabrication.git'''
 
 ## Install Django and Dependencies
 
