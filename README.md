@@ -14,14 +14,14 @@ This project is a Django web application that enables users to upload a document
 ### 1. Clone the Repository
 
 Clone this repository to your local machine:
-'''git clone git@github.com:victorgearhead/HyperLedger-Fabric---Data-Fabrication.git'''
+```git clone git@github.com:victorgearhead/HyperLedger-Fabric---Data-Fabrication.git```
 
 ## Install Django and Dependencies
 
 To install Django and any additional dependencies for the project, follow these steps:
 
 **Install Django**: Use `pip` to install Django.
-   ''''pip install django''''
+   ```pip install django```
 
 # Start the Hyperledger Fabric Network
 
@@ -38,31 +38,31 @@ Make sure you have:
 1. **Navigate to the Fabric Samples Directory**
 
    If you followed the standard installation, navigate to the `test-network` directory:
-   ''''cd fabric-samples/test-network''''
+   ```cd fabric-samples/test-network```
 
 2. **Start the Fabric Network and Create a Channel**
 
    Run the following command to start the network, create a channel (e.g., mychannel), and use Certificate Authorities:
-   ''''./network.sh up createChannel -c mychannel -ca''''
+   ```./network.sh up createChannel -c mychannel -ca```
 
 3. **Deploy the Chaincode**
 
    To deploy a specific chaincode on your channel, use the following command:
-   ''''./network.sh deployCC -ccn docChaincode -ccp ../chaincode/docChaincode -ccl go''''
+   ```./network.sh deployCC -ccn docChaincode -ccp ../chaincode/docChaincode -ccl go```
 
 ## Set Up Django Project
 
 1. **Navigate to the project directory**
-   ''''cd yourproject''''
+   ```cd yourproject```
 
 2. **Run Django migrations to initialize the database:**
 
-   ''''python manage.py migrate''''
+   ```python manage.py migrate```
 
 ## Run the Django Server
 
 1. **To start the Django development server:**
-   ''''python manage.py runserver''''
+   ```python manage.py runserver```
 The server will run at http://127.0.0.1:8000/ by default.
 
 ## Upload a Document
